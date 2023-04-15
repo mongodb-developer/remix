@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;400&family=Noto+Serif:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl font-serif pb-3;
+  }
+
+  h2 {
+    @apply text-xl italic font-sans pb-3;
+  }
+
+  hr {
+    @apply my-6;
+  }
+
+  input[type=text] {
+    @apply shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none;
+  }
+
+  button[type=submit] {
+    @apply bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none ;
+  }
+
+  form {
+    @apply bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4;
+  }
+}
