@@ -87,7 +87,7 @@ function Layout({ children }: { children: React.ReactNode }) {
               {children}
             </main>
           </div>
-          <div className="flex bg-gray-100">Fork this on &nbsp;<Link to="https://github.com/joellord/remix-mongodb">Github</Link></div>
+          <div className="flex bg-gray-100">Fork this on &nbsp;<Link to="https://github.com/mongodb-developer/remix">Github</Link></div>
         </div>
     </>
   );
