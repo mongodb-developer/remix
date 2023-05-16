@@ -2,7 +2,7 @@
 
 This simple stack includes everything you need to run Remix with MongoDB. It includes examples for basic document fetches, as well as a form to add new entries.
 
-Find out more in the article in the [MongoDB Dev Center](https://www.mongodb.com/developer/products/mongodb/building-remix-applications/).
+Find out more in the article in the [MongoDB Dev Center](https://mdb.link/remix).
 
 ## Requirements
 
